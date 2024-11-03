@@ -1,13 +1,10 @@
 # Ignore environment files
-./myenv
+myenv/
+second_hand_shop/.env
 
 # Ignore key files
-./the_key.json
+key/the_key.json
 
-./catalog/_pycache_
-
-./second_hand_shop/_pycache_
-
-.gitignore
-
-.second_hand_shop/.env
+# Ignore Python cache directories
+catalog/__pycache__/
+second_hand_shop/__pycache__/
