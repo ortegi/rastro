@@ -1,8 +1,13 @@
 # Ignore environment files
-.myenv
+./myenv
 
 # Ignore key files
 ./the_key.json
 
-/myenv/
-/_pycache_/
+./catalog/_pycache_
+
+./second_hand_shop/_pycache_
+
+.gitignore
+
+.second_hand_shop/.env
