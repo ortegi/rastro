@@ -1,8 +1,8 @@
-
 # Ignore environment files
-.env
+.myenv
 
 # Ignore key files
-the_key.json
+./the_key.json
 
-
+/myenv/
+/_pycache_/
