@@ -160,4 +160,4 @@ REST_FRAMEWORK = {
 
 
 import os
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = "C:\\Users\\Asus\\Documents\\Study\\second_hand_shop_django_project\\second_hand_shop\\key\\the_key.json"
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = os.path.join(BASE_DIR, 'second_hand_shop/key', 'the_key.json')
