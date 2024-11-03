@@ -1,0 +1,6 @@
+
+# Ignore environment files
+.env
+
+# Ignore key files
+./second_hand_shop/key/the_key.json
